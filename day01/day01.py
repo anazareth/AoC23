@@ -1,10 +1,13 @@
 '''
 Advent of Code 2023 Day 01
-https://adventofcode.com/2022/day/1
+https://adventofcode.com/2023/day/1
 AUTHOR: Alex Nazareth
-DATE:   November 2023
+DATE:   December 2023
 Short description:
- - 
+ - part 1: return sum of 2-digit numbers in each line
+ -- 2 digits are the first and last digits in the line
+ - part 2: digits include those spelled out in the line
+ -- in cases like 'twone', we want 2 and 1 counted
 '''
 
 def part1(data):
